@@ -8,48 +8,20 @@ import random
 inventory = []
 load(inventory)
 
-def path_weight(path, needed, storage):
-    for item in path:
-        pass
-    
-def find_random_path(item):
-    # find a random path to cook the given recipe.
-    item1 = 0
-    item2 = 1
-    
-    # create the path
+def random_path(item):
+    # create a random list of items that will create the given item.
+    # output should be: [ITEM, [item, item, item], [item, item, item], [item, item, item]]
     path = []
-    base_items = []
     path.append(item)
+    path.append(random.choice(recipe[item]))
 
-    # Start the loop
     for item in path:
-        # print()
-        # print(item)
-        
-        # Skip all items that are in shop or blank
-        if item in shop:
-            # print('In Shop')
-            base_items.append(item)
-            continue
+        print(item)
 
-        if item == '':
-            # print('item empty')
-            continue
-
-        # add the ingredients to the end of path
-        ingredients = random.choice(recipe[item])
-        # print(ingredients)
-        path.append(ingredients[item1])
-        path.append(ingredients[item2])
-
-    print(path)
-    # print(len(base_items), base_items)
 
 def main():
     pick_random = random.choice(list(recipe.keys()))
-    for _ in range(10):
-        find_random_path(pick_random)
+    random_path(pick_random)
 
 if __name__ == '__main__':
     main()
