@@ -1,4 +1,4 @@
-from dictionary import recipe
+from Outdated.dictionary import recipe
 from needed import needed
 from inventory import save, load
 from tkinter import *
