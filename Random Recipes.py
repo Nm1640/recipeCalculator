@@ -1,4 +1,4 @@
-from dictionary import recipe
+from Outdated.dictionary import recipe
 from shop import shop
 import random
 
