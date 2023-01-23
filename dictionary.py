@@ -1,5 +1,7 @@
 recipe = {
-    'Spicy Soup': [('Fire Burst', '')],
+    'Spicy Soup': [
+        ('Fire Burst', '')
+        ],
     'Snow Cone': [
         ('Ice Storm', ''),
         ('Peachy Peach', 'Ice Storm'),
@@ -151,7 +153,9 @@ recipe = {
         ('Power Steak', 'Block Block'),
         ('Bone-In Cut', 'Block Block'),
         ],
-    'Courage Shell': [('Shell Shock', '')],
+    'Courage Shell': [
+        ('Shell Shock', '')
+        ],
     'Mistake': [
         ('Sleepy Sheep', ''),
         ('Mistake', ''),
@@ -541,7 +545,9 @@ recipe = {
         ('Ultra Shroom Shake', 'Life Shroom'),
         ('Slimy Shroom', 'Ultra Shroom Shake'),
         ],
-    'Slimy Extract': [('Slimy Shroom', '')],
+    'Slimy Extract': [
+        ('Slimy Shroom', '')
+        ],
     'Dangerous Delight': [
         ('Ghost Shroom', ''),
         ('Poison Shroom', ''),
@@ -652,8 +658,12 @@ recipe = {
         ('Dyllis Dynamite', 'Ghost Shroom'),
         ('Dyllis Dynamite', 'Poison Shroom'),
         ],
-    'Sweet Cookie Snack': [('Cake Mix', '')],
-    'Fried Egg': [('Big Egg', '')],
+    'Sweet Cookie Snack': [
+        ('Cake Mix', '')
+        ],
+    'Fried Egg': [
+        ('Big Egg', '')
+        ],
     'Spaghetti Plate': [
         ('Fresh Pasta Bunch', ''),
         ('Fresh Pasta Bunch', 'Shroom Shake'),
@@ -720,12 +730,20 @@ recipe = {
         ('Smelly Herb', 'Bone-In Cut'),
         ('Whacka Bump', 'Bone-In Cut'),
         ],
-    'Peach Juice': [('Peachy Peach', ''), ('Peachy Peach',
-                    'Mighty Tonic')],
-    'Mango Juice': [('Keel Mango', ''), ('Keel Mango', 'Mighty Tonic'
-                    )],
-    'Sky Juice': [('Blue Apple', ''), ('Orange Apple', ''), ('Red Apple'
-                  , ''), ('Pink Apple', '')],
+    'Peach Juice': [
+        ('Peachy Peach', ''), 
+        ('Peachy Peach', 'Mighty Tonic')
+        ],
+    'Mango Juice': [
+        ('Keel Mango', ''), 
+        ('Keel Mango', 'Mighty Tonic')
+        ],
+    'Sky Juice': [
+        ('Blue Apple', ''), 
+        ('Orange Apple', ''), 
+        ('Red Apple', ''),
+        ('Pink Apple', '')
+        ],
     'Town Special': [
         ('Primordial Fruit', ''),
         ('Primordial Fruit', 'Cake Mix'),
@@ -1754,10 +1772,12 @@ recipe = {
         ('Hot Sauce', 'Ultra Shroom Shake'),
         ('Hot Sauce', 'Slimy Shroom'),
         ],
-    'Awesome Snack': [('Hot Sauce', 'Cake Mix'), ('Inky Sauce',
-                      'Cake Mix'), ('Dayzee Tear', 'Cake Mix'),
-                      ('Fresh Veggie', 'Cake Mix'), ('Smelly Herb',
-                      'Cake Mix')],
+    'Awesome Snack': [
+        ('Hot Sauce', 'Cake Mix'),
+        ('Inky Sauce', 'Cake Mix'),
+        ('Dayzee Tear', 'Cake Mix'),
+        ('Fresh Veggie', 'Cake Mix'), 
+        ('Smelly Herb', 'Cake Mix')],
     'Spicy Dinner': [
         ('Hot Sauce', 'Big Egg'),
         ('Hot Sauce', 'Power Steak'),

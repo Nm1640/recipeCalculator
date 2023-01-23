@@ -145,6 +145,9 @@ for product in recipe:
         tier6.append(product)
 
 print('---')
+
+tier = {}
+
 for i in range(6):
     print(i + 1)
     print(tiers[i])

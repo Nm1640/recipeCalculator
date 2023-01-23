@@ -1,9 +1,3 @@
-from Outdated.dictionary import recipe
-from needed import needed
-from inventory import save, load
-from shop import shop
-from tier import tier
-import random
 import csv
 
 data = []
@@ -30,11 +24,9 @@ for recipe in data:
         recipes[recipe[product]] = []
         print(recipe[product])
 
-
 for recipe in data:
     first = recipe[item1]
     second = recipe[item2]
-
     recipes[recipe[product]].append((first, second))
 
 print(recipes)
