@@ -1,4 +1,4 @@
-from Outdated.dictionary import recipe
+from dictionary import recipe
 from needed import needed
 from inventory import save, load
 from shop import shop
